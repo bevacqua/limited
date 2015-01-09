@@ -54,6 +54,25 @@ function getLastCommitInRepositories (ids, done) {
 
 The second query isn't executed on your behalf. It's up to you to decide how you want to deal with the document ids you get back from `limited`.
 
+Output `result` looks like below.
+
+```js
+[ { _id: 54b03e3dea4d2dd3012f9490,
+    documents:
+     [ 54b03e3dea4d2dd3012f949b,
+       54b03e3dea4d2dd3012f949a,
+       54b03e3dea4d2dd3012f9499,
+       54b03e3dea4d2dd3012f9498,
+       54b03e3dea4d2dd3012f9497 ] },
+  { _id: 54b03e3dea4d2dd3012f9491,
+    documents:
+     [ 54b03e3dea4d2dd3012f94a0,
+       54b03e3dea4d2dd3012f949f,
+       54b03e3dea4d2dd3012f949e,
+       54b03e3dea4d2dd3012f949d,
+       54b03e3dea4d2dd3012f949c ] } ]
+```
+
 # License
 
 MIT
