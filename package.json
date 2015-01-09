@@ -1,0 +1,16 @@
+{
+  "name": "limited",
+  "version": "1.0.0",
+  "description": "Compose $aggregate MongoDB queries for Mongoose as if $push had a $limit operator.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/limited.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/limited/issues"
+  },
+  "homepage": "https://github.com/bevacqua/limited"
+}
